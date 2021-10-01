@@ -1,0 +1,61 @@
+<svg class="background">
+  <!--background image-->
+  <svg>
+    <image width="100%" height="100%" href="icons/cccwatchface01.png"/>
+  </svg>
+  
+  <!-- clock -->
+  <g class="clock-container">
+    <text id="clockText" class="output"/>
+  </g>
+  <!-- date -->
+  <g class="date-container">
+    <text id = "weekDayText"class ="output"/>
+    <text id = "monthText"class ="output"/>
+    <text id = "dateText"class ="output"/>
+  </g>
+  
+  <!-- battery -->
+  <g class="battery-container">
+   <text id="batteryStatusText" class="output"/>
+    <text id="batteryText" class="output"/>
+  </g>
+  <!-- heart rate -->
+  <g class="heartrate-container">
+    <text id="heartRateSymbol" class="red ouput"/>
+    <text id="heartRateText" class="output"/>
+  </g>
+  
+  <!-- User Activity Section -->
+  <!-- steps -->
+  <g class="metric-container">
+    <text id = "stepsUnitText" class ="metricLine1 metricTitle output"/>
+    <text id="stepsText" class="metricLine1 metricValue output"/>
+  </g>
+
+  <!-- calories -->
+  <g class="metric-container">
+    <text id = "caloriesUnitText" class ="metricLine2 metricTitle output"/>
+    <text id="caloriesText"  class="metricLine2 metricValue output"/>
+  </g>
+
+  <!-- distance -->
+  <g class="metric-container">
+    <text id = "distanceUnitText"class ="metricLine3 metricTitle output"/>
+    <text id="distanceText" class="metricLine3 metricValue output"/>
+  </g>
+  
+   <!--zoneMinutes-->
+   <g class="metric-container">
+      <text id = "activeZoneMinutesUnitText" class ="metricLine4 metricTitle output"/>
+      <text id="activeZoneMinutesText"  class="metricLine4 metricValue output"/>
+  </g>
+
+  <!-- elevationGain -->
+  <g class="metric-container">
+     <text id = "elevationGainUnitText" class ="metricLine5 metricTitle output"/>
+    <text id="elevationGainText"  class="metricLine5 metricValue output"/>
+  </g>
+</svg>
+
+

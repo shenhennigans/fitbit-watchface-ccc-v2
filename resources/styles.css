@@ -1,0 +1,108 @@
+/* Background */
+.background {
+  viewport-fill: black;
+}
+
+/* output elements length */
+.output {
+  text-length: 32;
+}
+.red {
+  fill: red;
+}
+
+/* Clock */
+#clockText {
+  x: 55%;
+  y: 90%;
+}
+
+.clock-container {
+  font-size: 35;
+  font-family: Colfax-Regular;
+  fill: white;
+}
+
+/* Date */
+#weekDayText {
+  y: 20%;
+  x: 7%;
+}
+#monthText {
+  y: 30%;
+  x: 7%;
+}
+#dateText {
+  y: 40%;
+  x: 7%;
+}
+.date-container {
+  font-family: Colfax-Regular;
+  font-size: 30;
+  fill: white;
+}
+
+/* Heart Rate */
+#heartRateText {
+  y: 53%;
+  x: 14%;
+}
+#heartRateSymbol {
+  y: 53%;
+  x: 7%;
+}
+
+.heartrate-container {
+  font-size: 20;
+  font-family: Seville-Bold-Condensed;
+  fill: white;
+}
+
+/* Battery */
+#batteryText {
+  y: 10%;
+  x: 75%;
+}
+#batteryStatusText {
+  y: 10%;
+  x: 55%;
+}
+
+.battery-container {
+  fill: white;
+  font-size: 20;
+  font-family: Colfax-Regular;
+}
+
+/* Metrics */
+.metric-container {
+  fill: white;
+}
+/* also set metrics horizontal positioning */
+.metricTitle {
+  font-size: 16;
+  font-family: Seville-Condensed;
+  x: 55%;
+}
+
+.metricValue {
+  font-size: 20;
+  font-family: Seville-Bold-Condensed;
+  x: 75%;
+}
+
+.metricLine1 {
+  y: 25%;
+}
+.metricLine2 {
+  y: 35%;
+}
+.metricLine3 {
+  y: 45%;
+}
+.metricLine4 {
+  y: 55%;
+}
+.metricLine5 {
+  y: 65%;
+}

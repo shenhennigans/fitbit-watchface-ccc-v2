@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "51c0fcc3-7881-422c-930e-0d210bac0fcf",
+    "appType": "clockface",
+    "appDisplayName": "crazy_chemist_coffee_v3",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "crazy_chemist_coffee_v3"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
